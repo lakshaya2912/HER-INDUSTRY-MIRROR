@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HER-INDUSTRY-MIRROR | Hackathon Presentation</title>
+  
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Background Animated Gradient Orbs -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <!-- Top Navigation Bar -->
+  <header class="top-nav">
+    <div class="brand">
+      <div class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+      <div class="brand-text">
+        <span class="project-title">HER-INDUSTRY-MIRROR</span>
+        <span class="project-badge">Hackathon 2026</span>
+      </div>
+    </div>
+    
+    <div class="nav-center-theme">
+      <span class="theme-label"><i class="fa-solid fa-award"></i> Theme: Innovation for Women</span>
+    </div>
+
+    <div class="nav-actions">
+      <button id="btn-notes" class="nav-btn" title="Toggle Presenter Pitch Script"><i class="fa-solid fa-book-open"></i> <span>Pitch Script (N)</span></button>
+      <button id="btn-fullscreen" class="nav-btn" title="Toggle Fullscreen (F)"><i class="fa-solid fa-expand"></i></button>
+    </div>
+  </header>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar-container">
+    <div id="progress-bar" class="progress-bar"></div>
+  </div>
+
+  <!-- Main Presentation Deck Container -->
+  <main class="deck-container">
+    
+    <!-- ==========================================
+         SLIDE 1 — TITLE
+         ========================================== -->
+    <section class="slide active" data-slide="1">
+      <div class="slide-content title-slide">
+        
+        <div class="theme-pill">
+          <i class="fa-solid fa-sparkles"></i> Innovation for Women: Technology-Driven Solutions for Education & Skill Development
+        </div>
+        
+        <h1 class="hero-title">
+          HER-INDUSTRY-<span class="gradient-text">MIRROR</span>
+        </h1>
+        
+        <p class="hero-tagline">
+          “See your future career. Practise it before you enter it.”
+        </p>
+
+        <p class="hero-subtext">
+          AI-Powered Industry & Workplace Readiness for Women Students
+        </p>
+
+        <!-- Clean Team Metadata Box -->
+        <div class="hero-team-meta-box">
+          <div class="meta-item">
+            <i class="fa-solid fa-users"></i>
+            <strong>Team:</strong> <span class="meta-val highlight">InnoSphere</span>
+          </div>
+          <div class="meta-item">
+            <i class="fa-solid fa-user-group"></i>
+            <strong>Members:</strong>
+            <span class="meta-members-pills">
+              <span class="member-pill">Lakshaya S</span>
+              <span class="member-pill">Gopika M</span>
+              <span class="member-pill">Mansi S</span>
+              <span class="member-pill">Anthony Silviya R</span>
+            </span>
+          </div>
+          <div class="meta-item">
+            <i class="fa-solid fa-building-columns"></i>
+            <strong>College:</strong> <span class="meta-val">Rajiv Gandhi College of Engineering and Technology</span>
+          </div>
+        </div>
+
+        <div class="hint-key">
+          <span>Press <kbd>→</kbd> or click <strong>Next</strong> to start pitch • Press <kbd>N</kbd> for Speaker Notes</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SLIDE 2 — THE PROBLEM
+         ========================================== -->
+    <section class="slide" data-slide="2">
+      <div class="slide-content">
+        
+        <div class="slide-header">
+          <span class="slide-number">02 / 10</span>
+          <h2 class="section-title">“DEGREE ≠ <span class="gradient-text">JOB READINESS</span>”</h2>
+        </div>
+
+        <div class="problem-visual-container">
+          
+          <!-- College Flow Card -->
+          <div class="pipeline-block college-block">
+            <div class="pipeline-badge college-badge">
+              <i class="fa-solid fa-graduation-cap"></i> COLLEGE
+            </div>
+            <div class="simple-flow">
+              <div class="flow-pill edu">Learn</div>
+              <span class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+              <div class="flow-pill edu">Exam</div>
+              <span class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+              <div class="flow-pill edu highlight">Degree</div>
+            </div>
+          </div>
+
+          <!-- The Missing Bridge Highlight -->
+          <div class="missing-bridge-callout">
+            <div class="bridge-glow-line"></div>
+            <div class="bridge-tag">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <span>THE MISSING BRIDGE</span>
+              <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <div class="bridge-glow-line"></div>
+          </div>
+
+          <!-- Industry Flow Card -->
+          <div class="pipeline-block industry-block">
+            <div class="pipeline-badge industry-badge">
+              <i class="fa-solid fa-briefcase"></i> INDUSTRY
+            </div>
+            <div class="simple-flow">
+              <div class="flow-pill ind">Problem</div>
+              <span class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+              <div class="flow-pill ind">Skills</div>
+              <span class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+              <div class="flow-pill ind">Teamwork</div>
+              <span class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+              <div class="flow-pill ind highlight">Solution</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Small Supporting Line -->
+        <div class="supporting-callout-box">
+          <i class="fa-solid fa-circle-question"></i>
+          <span>“Students know subjects. Do they know how to use them at work?”</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SLIDE 3 — WHAT IS MISSING FROM THE CLASSROOM?
+         ========================================== -->
+    <section class="slide" data-slide="3">
+      <div class="slide-content">
+        
+        <div class="slide-header">
+          <span class="slide-number">03 / 10</span>
+          <h2 class="section-title">“WHAT IS MISSING FROM <span class="gradient-text">THE CLASSROOM?</span>”</h2>
+        </div>
+
+        <div class="missing-classroom-grid">
+          
+          <!-- Technical Skills Card -->
+          <div class="glass-card skill-split-card tech-card-border">
+            <div class="category-header">
+              <div class="cat-badge badge-blue"><i class="fa-solid fa-code"></i> TECHNICAL SKILLS</div>
+              <p class="cat-subtitle">What students learn</p>
+            </div>
+            <div class="tech-points-list">
+              <div class="point-row"><span class="arrow-sym">→</span> <span class="point-text">Coding</span></div>
+              <div class="point-row"><span class="arrow-sym">→</span> <span class="point-text">DBMS</span></div>
+              <div class="point-row"><span class="arrow-sym">→</span> <span class="point-text">Networks</span></div>
+              <div class="point-row"><span class="arrow-sym">→</span> <span class="point-text">Tools</span></div>
+            </div>
+          </div>
+
+          <!-- Workplace Needs Card -->
+          <div class="glass-card skill-split-card work-card-border">
+            <div class="category-header">
+              <div class="cat-badge badge-pink"><i class="fa-solid fa-briefcase"></i> BUT WORK ALSO NEEDS</div>
+              <p class="cat-subtitle">What modern tech careers demand</p>
+            </div>
+            <div class="work-points-grid">
+              <div class="work-chip"><i class="fa-solid fa-comments"></i> Communication</div>
+              <div class="work-chip"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+              <div class="work-chip"><i class="fa-solid fa-people-group"></i> Teamwork</div>
+              <div class="work-chip"><i class="fa-solid fa-circle-question"></i> Asking Questions</div>
+              <div class="work-chip"><i class="fa-solid fa-comments-dollar"></i> Handling Feedback</div>
+              <div class="work-chip"><i class="fa-solid fa-scale-balanced"></i> Making Decisions</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Strong Middle Line -->
+        <div class="strong-takeaway-line">
+          “Knowing the subject is only the beginning.”
+        </div>
+
+        <!-- Bottom Message -->
+        <div class="supporting-banner-box">
+          <i class="fa-solid fa-lightbulb"></i>
+          <span>“Students need practice for the workplace — not just preparation for exams.”</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SLIDE 4 — FROM LEARNING TO DOING
+         ========================================== -->
+    <section class="slide" data-slide="4">
+      <div class="slide-content">
+        
+        <div class="slide-header">
+          <span class="slide-number">04 / 10</span>
+          <h2 class="section-title">HER-INDUSTRY MIRROR: <span class="gradient-text">FROM LEARNING TO DOING</span></h2>
+        </div>
+
+        <!-- Simple 6-Step Journey Path -->
+        <div class="journey-6-grid">
+          
+          <div class="journey-card">
+            <div class="j-step-num">1</div>
+            <div class="j-icon"><i class="fa-solid fa-book-open"></i></div>
+            <h4 class="j-title">LEARN</h4>
+            <p class="j-desc">What I study</p>
+          </div>
+
+          <div class="j-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="journey-card">
+            <div class="j-step-num">2</div>
+            <div class="j-icon"><i class="fa-solid fa-eye"></i></div>
+            <h4 class="j-title">SEE</h4>
+            <p class="j-desc">Where it is used in industry</p>
+          </div>
+
+          <div class="j-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="journey-card">
+            <div class="j-step-num">3</div>
+            <div class="j-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <h4 class="j-title">FIND THE GAP</h4>
+            <p class="j-desc">What I still need to improve</p>
+          </div>
+
+          <div class="j-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="journey-card highlight-step">
+            <div class="j-step-num">4</div>
+            <div class="j-icon"><i class="fa-solid fa-gamepad"></i></div>
+            <h4 class="j-title">PRACTISE</h4>
+            <p class="j-desc">Solve a real-world mission</p>
+          </div>
+
+          <div class="j-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="journey-card">
+            <div class="j-step-num">5</div>
+            <div class="j-icon"><i class="fa-solid fa-brain"></i></div>
+            <h4 class="j-title">GET FEEDBACK</h4>
+            <p class="j-desc">AI shows strengths and weak areas</p>
+          </div>
+
+          <div class="j-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="journey-card">
+            <div class="j-step-num">6</div>
+            <div class="j-icon"><i class="fa-solid fa-id-card-clip"></i></div>
+            <h4 class="j-title">PROVE IT</h4>
+            <p class="j-desc">Build my AI Skill Passport</p>
+          </div>
+
+        </div>
+
+        <!-- Strong Slogan Banner -->
+        <div class="strong-slogan-banner">
+          “Learn it. Use it. Practise it. Prove it.”
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SLIDE 5 — SKILL MIRROR + INDUSTRY MISSIONS
+         ========================================== -->
+    <section class="slide" data-slide="5">
+      <div class="slide-content">
+        
+        <div class="slide-header">
+          <span class="slide-number">05 / 10</span>
+          <h2 class="section-title">“DON’T JUST LEARN IT. <span class="gradient-text">SEE WHERE IT WORKS.</span>”</h2>
+        </div>
+
+        <!-- One Strong Example Flow -->
+        <div class="example-chain-container">
+          
+          <div class="chain-node node-academic">
+            <div class="chain-icon"><i class="fa-solid fa-database"></i></div>
+            <div class="chain-title">DBMS</div>
+            <div class="chain-caption">Academic Subject</div>
+          </div>
+
+          <div class="chain-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="chain-node node-context">
+            <div class="chain-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="chain-title">E-COMMERCE</div>
+            <div class="chain-caption">Business Domain</div>
+          </div>
+
+          <div class="chain-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="chain-node node-role">
+            <div class="chain-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="chain-title">DATA / BACKEND ROLE</div>
+            <div class="chain-caption">Career Track</div>
+          </div>
+
+          <div class="chain-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="chain-node node-task">
+            <div class="chain-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <div class="chain-title">REAL INDUSTRY TASK</div>
+            <div class="chain-caption">Production Outage Triage</div>
+          </div>
+
+        </div>
+
+        <!-- Interactive Scenario Checkpoint -->
+        <div class="interactive-mission-snippet glass-card">
+          <div class="snippet-header">
+            <span class="snip-badge"><i class="fa-solid fa-bolt"></i> Live Dilemma</span>
+            <span class="snip-title">“Manager explains an unclear requirement in a team meeting. What do you do?”</span>
+          </div>
+          <div class="snip-actions">
+            <button class="snip-btn" onclick="handleDilemmaChoice(1)">
+              <strong>A.</strong> Ask clarifying questions on user constraints
+            </button>
+            <button class="snip-btn" onclick="handleDilemmaChoice(2)">
+              <strong>B.</strong> Stay silent and guess later to avoid looking inexperienced
+            </button>
+          </div>
+          <div id="dilemma-feedback-box" class="snip-feedback">
+            <span><i class="fa-solid fa-hand-pointer"></i> Click an option above to see instant AI coaching feedback.</span>
+          </div>
+        </div>
+
+        <!-- Small Line -->
+        <div class="supporting-banner-box" style="margin-top: 1rem;">
+          <i class="fa-solid fa-arrows-spin"></i>
+          <span>“Turn academic knowledge into practical experience.”</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SLIDE 6 — REAL-WORLD ESCAPE ROOM (WOW SLIDE)
+         ========================================== -->
+    <section class="slide" data-slide="6">
+      <div class="slide-content">
+        
+        <div class="slide-header">
+          <span class="slide-number">06 / 10</span>
+          <h2 class="section-title">“YOUR FIRST DAY AT WORK — <span class="gradient-text">BEFORE YOUR FIRST JOB</span>”</h2>
+          <p class="section-subtitle">“Can you handle a real workday?”</p>
+        </div>
+
+        <!-- Visual Timeline -->
+        <div class="escape-timeline-nav">
+          <button class="esc-btn active" data-hour="h930">
+            <span class="esc-time">09:30</span>
+            <span class="esc-event">UNCLEAR TASK</span>
+          </button>
+          <div class="esc-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          <button class="esc-btn" data-hour="h1100">
+            <span class="esc-time">11:00</span>
+            <span class="esc-event">TECHNICAL PROBLEM</span>
+          </button>
+          <div class="esc-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          <button class="esc-btn" data-hour="h1400">
+            <span class="esc-time">14:00</span>
+            <span class="esc-event">TEAM DISAGREEMENT</span>
+          </button>
+          <div class="esc-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          <button class="esc-btn" data-hour="h1600">
+            <span class="esc-time">16:00</span>
+            <span class="esc-event">MANAGER CHECK-IN</span>
+          </button>
+        </div>
+
+        <!-- Simulation Grid: Active Simulation + AI Readiness Report -->
+        <div class="escape-room-split">
+          
+          <!-- Left: Active Workday Step -->
+          <div class="glass-card esc-sim-box">
+            <div class="esc-sim-header">
+              <span id="sim-active-time" class="esc-clock-pill"><i class="fa-solid fa-clock"></i> 09:30</span>
+              <span class="esc-user-tag"><i class="fa-solid fa-user-astronaut"></i> Persona: Ananya (3rd-Year CS)</span>
+            </div>
+            <h4 id="sim-step-title" class="esc-scenario-title">09:30 — UNCLEAR TASK</h4>
+            <p id="sim-step-desc" class="esc-scenario-desc">
+              “Your manager gives you a vague requirement.”
+            </p>
+            <div id="sim-options-container" class="esc-choices">
+              <button class="esc-choice-btn" onclick="handleWorkdayChoice(1)">
+                <span class="opt-num">A.</span> Ask structured clarifying questions on user requirements & goals.
+              </button>
+              <button class="esc-choice-btn" onclick="handleWorkdayChoice(2)">
+                <span class="opt-num">B.</span> Stay silent and try to guess later based on assumptions.
+              </button>
+            </div>
+            <div id="sim-feedback-box" class="esc-feedback-box">
+              <span><i class="fa-solid fa-hand-pointer"></i> Select an option to see AI Mirror coaching.</span>
+            </div>
+          </div>
+
+          <!-- Right: AI Readiness Check Report -->
+          <div class="glass-card esc-report-box">
+            <div class="esc-report-header">
+              <i class="fa-solid fa-id-badge"></i>
+              <div>
+                <h4>AI READINESS CHECK</h4>
+                <span class="report-subtitle">Day 1 Certified Evaluation</span>
+              </div>
+            </div>
+
+            <div class="esc-scores-grid">
+              <div class="score-card-item">
+                <span class="score-metric-name">Technical Skills</span>
+                <span class="score-metric-val val-blue">82%</span>
+              </div>
+              <div class="score-card-item">
+                <span class="score-metric-name">Communication</span>
+                <span class="score-metric-val val-pink">76%</span>
+              </div>
+              <div class="score-card-item">
+                <span class="score-metric-name">Teamwork</span>
+                <span class="score-metric-val val-purple">91%</span>
+              </div>
+              <div class="score-card-item">
+                <span class="score-metric-name">Problem Solving</span>
+                <span class="score-metric-val val-amber">84%</span>
+              </div>
+            </div>
+
+            <!-- Bottom: Next Challenge Unlocked -->
+            <div class="next-challenge-unlock">
+              <div class="unlock-label"><i class="fa-solid fa-lock-open"></i> NEXT CHALLENGE</div>
+              <div class="unlock-title">“Managing a difficult requirement”</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Catchy Line at Bottom -->
+        <div class="supporting-banner-box" style="margin-top: 0.9rem;">
+          <i class="fa-solid fa-sparkles"></i>
+          <span>“Make mistakes here. Learn before the real workplace.”</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SLIDE 7 — AI SKILL PASSPORT
+         ========================================== -->
+    <section class="slide" data-slide="7">
+      <div class="slide-content">
+        
+        <div class="slide-header">
+          <span class="slide-number">07 / 10</span>
+          <h2 class="section-title">“DON’T JUST CLAIM A SKILL. <span class="gradient-text">DEMONSTRATE IT.</span>”</h2>
+        </div>
+
+        <!-- Large Visual Comparison: CERTIFICATE vs SKILL PASSPORT -->
+        <div class="passport-large-comparison">
+          
+          <!-- Legacy Certificate -->
+          <div class="cert-side-card legacy">
+            <div class="side-badge legacy-badge"><i class="fa-solid fa-file-lines"></i> TRADITIONAL CERTIFICATE</div>
+            <h3 class="side-title">“What I Completed”</h3>
+            
+            <div class="mock-paper-cert">
+              <i class="fa-solid fa-award paper-icon"></i>
+              <div class="cert-paper-text">Certificate of Completion</div>
+              <div class="cert-subtext">“Completed 40-hour Online SQL Course”</div>
+              <div class="cert-limitation-pill">⚠️ Proof of passive attendance only</div>
+            </div>
+            
+            <div class="cert-verdict">Zero evidence of real problem solving or communication under pressure.</div>
+          </div>
+
+          <!-- VS Badge Divider -->
+          <div class="vs-badge-divider">
+            <span>VS</span>
+          </div>
+
+          <!-- AI Skill Passport -->
+          <div class="cert-side-card passport-glow">
+            <div class="side-badge passport-badge"><i class="fa-solid fa-id-card-clip"></i> AI SKILL PASSPORT</div>
+            <h3 class="side-title">“What I Demonstrated”</h3>
+
+            <div class="passport-credential-card">
+              <div class="p-header-row">
+                <div class="p-level">SQL — APPLIED LEVEL</div>
+                <div class="p-tag-check"><i class="fa-solid fa-circle-check"></i> Retail Analytics Mission ✓</div>
+              </div>
+
+              <div class="p-demonstrated-box">
+                <span class="p-lbl">Demonstrated:</span>
+                <span class="p-val">SQL + Data Analysis + Problem Solving</span>
+              </div>
+
+              <div class="p-scores-row">
+                <div class="p-score-pill">
+                  <span>Communication:</span> <strong>84%</strong>
+                </div>
+                <div class="p-score-pill">
+                  <span>Problem Solving:</span> <strong>89%</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="passport-dynamic-note">
+              <i class="fa-solid fa-arrow-trend-up"></i> Grows dynamically with each completed mission & simulation
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SLIDE 8 — WOMEN CAREER GROWTH
+         ========================================== -->
+    <section class="slide" data-slide="8">
+      <div class="slide-content">
+        
+        <div class="slide-header">
+          <span class="slide-number">08 / 10</span>
+          <h2 class="section-title">“PREPARE WITH <span class="gradient-text">CONFIDENCE</span>”</h2>
+        </div>
+
+        <!-- 5 Simple Sections as Visual Cards -->
+        <div class="growth-5-grid">
+          
+          <div class="growth-card">
+            <div class="growth-icon"><i class="fa-solid fa-user-tie"></i></div>
+            <div class="growth-title">MENTORS</div>
+            <div class="growth-desc">Learn from experienced professionals</div>
+          </div>
+
+          <div class="growth-card">
+            <div class="growth-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="growth-title">ROLE MODELS</div>
+            <div class="growth-desc">See real career journeys</div>
+          </div>
+
+          <div class="growth-card">
+            <div class="growth-icon"><i class="fa-solid fa-shield-heart"></i></div>
+            <div class="growth-title">SAFE PRACTICE</div>
+            <div class="growth-desc">Try, fail, learn, try again</div>
+          </div>
+
+          <div class="growth-card">
+            <div class="growth-icon"><i class="fa-solid fa-comments"></i></div>
+            <div class="growth-title">WORKPLACE SKILLS</div>
+            <div class="growth-desc">Communication, teamwork and decision making</div>
+          </div>
+
+          <div class="growth-card">
+            <div class="growth-icon"><i class="fa-solid fa-route"></i></div>
+            <div class="growth-title">CAREER ROADMAP</div>
+            <div class="growth-desc">Know what to learn and what to practise next</div>
+          </div>
+
+        </div>
+
+        <!-- Simple Journey Strip -->
+        <div class="growth-flow-strip">
+          <span class="g-node">STUDENT</span>
+          <span class="g-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+          <span class="g-node">MENTOR</span>
+          <span class="g-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+          <span class="g-node highlight">PRACTICE</span>
+          <span class="g-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+          <span class="g-node">FEEDBACK</span>
+          <span class="g-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+          <span class="g-node">CONFIDENCE</span>
+          <span class="g-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+          <span class="g-node destination">CAREER</span>
+        </div>
+
+        <!-- One Strong Line -->
+        <div class="supporting-banner-box" style="margin-top: 0.9rem;">
+          <i class="fa-solid fa-heart"></i>
+          <span>“Not because women need less — because everyone deserves the right preparation.”</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SLIDE 9 — TECHNOLOGY + IMPACT
+         ========================================== -->
+    <section class="slide" data-slide="9">
+      <div class="slide-content">
+        
+        <div class="slide-header">
+          <span class="slide-number">09 / 10</span>
+          <h2 class="section-title">“AI THAT TURNS <span class="gradient-text">GAPS INTO GROWTH</span>”</h2>
+        </div>
+
+        <!-- Technology as Compact Cards -->
+        <div class="tech-compact-pills-row">
+          <div class="tech-chip"><i class="fa-solid fa-brain"></i> AI / LLM</div>
+          <div class="tech-chip"><i class="fa-brands fa-react"></i> React</div>
+          <div class="tech-chip"><i class="fa-brands fa-node-js"></i> Python / Node.js</div>
+          <div class="tech-chip"><i class="fa-solid fa-database"></i> PostgreSQL / MongoDB</div>
+          <div class="tech-chip"><i class="fa-solid fa-chart-line"></i> Analytics</div>
+        </div>
+
+        <!-- AI & Impact 2-Column Grid -->
+        <div class="ai-impact-dual-grid">
+          
+          <!-- Left: AI Block -->
+          <div class="glass-card ai-block-card">
+            <div class="dual-header">
+              <i class="fa-solid fa-wand-magic-sparkles" style="color: var(--secondary);"></i>
+              <h4>AI Capabilities</h4>
+            </div>
+            <div class="dual-list">
+              <div class="dual-item"><i class="fa-solid fa-check"></i> Detects gaps</div>
+              <div class="dual-item"><i class="fa-solid fa-check"></i> Generates scenarios</div>
+              <div class="dual-item"><i class="fa-solid fa-check"></i> Gives feedback</div>
+              <div class="dual-item"><i class="fa-solid fa-check"></i> Recommends next steps</div>
+            </div>
+          </div>
+
+          <!-- Right: Impact Block -->
+          <div class="glass-card impact-block-card">
+            <div class="dual-header">
+              <i class="fa-solid fa-chart-pie" style="color: #34d399;"></i>
+              <h4>Platform Impact</h4>
+            </div>
+            <div class="dual-list">
+              <div class="dual-item"><i class="fa-solid fa-circle-check"></i> Skill Growth</div>
+              <div class="dual-item"><i class="fa-solid fa-circle-check"></i> Workplace Readiness</div>
+              <div class="dual-item"><i class="fa-solid fa-circle-check"></i> Industry Exposure</div>
+              <div class="dual-item"><i class="fa-solid fa-circle-check"></i> Mentorship</div>
+              <div class="dual-item"><i class="fa-solid fa-circle-check"></i> Demonstrated Skills</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SLIDE 10 — COMPLETELY REDESIGNED CLOSING
+         ========================================== -->
+    <section class="slide" data-slide="10">
+      <div class="slide-content conclusion-slide">
+        
+        <div class="slide-header">
+          <span class="slide-number">10 / 10</span>
+          <h2 class="section-title">“WHAT IF COLLEGE COULD FEEL LIKE <span class="gradient-text">YOUR FIRST JOB?</span>”</h2>
+        </div>
+
+        <!-- Visual Transformation 5-Step Stepper -->
+        <div class="transformation-stepper-5">
+          
+          <div class="t-node">
+            <span class="t-stage-label">TODAY</span>
+            <h4 class="t-quote-text">“I learned it.”</h4>
+          </div>
+
+          <div class="t-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="t-node">
+            <span class="t-stage-label">HER-INDUSTRY MIRROR</span>
+            <h4 class="t-quote-text">“I used it.”</h4>
+          </div>
+
+          <div class="t-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="t-node">
+            <span class="t-stage-label">REAL-WORLD ESCAPE ROOM</span>
+            <h4 class="t-quote-text">“I practised it.”</h4>
+          </div>
+
+          <div class="t-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <div class="t-node">
+            <span class="t-stage-label">AI SKILL PASSPORT</span>
+            <h4 class="t-quote-text">“I proved it.”</h4>
+          </div>
+
+          <div class="t-arrow final-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <!-- Biggest Text on the Slide -->
+          <div class="t-node t-node-climax">
+            <span class="t-climax-title"><i class="fa-solid fa-sparkles"></i> TOMORROW</span>
+            <h2 class="t-climax-quote gradient-text">“I am ready for it.”</h2>
+          </div>
+
+        </div>
+
+        <!-- Small Closing Statement -->
+        <div class="closing-sub-statement">
+          “From classroom knowledge to workplace confidence.”
+        </div>
+
+        <!-- Brand Quote Block -->
+        <div class="final-brand-block">
+          <h3 class="final-brand-name">HER-INDUSTRY MIRROR</h3>
+          <p class="final-brand-tagline">“See your future career. Practise it before you enter it.”</p>
+        </div>
+
+        <!-- Team & College Credits -->
+        <div class="hero-team-meta-box" style="margin-top: 0.5rem; margin-bottom: 0.4rem; padding: 0.45rem 1rem;">
+          <div class="meta-item"><i class="fa-solid fa-users"></i> <strong>Team:</strong> <span class="meta-val highlight">InnoSphere</span></div>
+          <div class="meta-item">
+            <i class="fa-solid fa-user-group"></i> <strong>Members:</strong>
+            <span class="meta-members-pills">
+              <span class="member-pill">Lakshaya S</span>
+              <span class="member-pill">Gopika M</span>
+              <span class="member-pill">Mansi S</span>
+              <span class="member-pill">Anthony Silviya R</span>
+            </span>
+          </div>
+          <div class="meta-item"><i class="fa-solid fa-building-columns"></i> <strong>College:</strong> <span class="meta-val">Rajiv Gandhi College of Engineering and Technology</span></div>
+        </div>
+
+        <div class="call-to-action-wrapper" style="margin-top: 0.35rem;">
+          <button class="cta-primary-btn" onclick="restartPresentation()"><i class="fa-solid fa-arrow-rotate-left"></i> Replay Presentation</button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Presenter Pitch Script Drawer -->
+  <aside id="pitch-drawer" class="pitch-drawer">
+    <div class="pitch-header">
+      <div class="pitch-title">
+        <i class="fa-solid fa-microphone-lines"></i>
+        <span>Speaker Pitch Notes (5–7 Minute Spoken Pitch)</span>
+      </div>
+      <button id="close-pitch" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="pitch-body" id="pitch-content">
+      <!-- Injected dynamically via JS based on active slide -->
+    </div>
+  </aside>
+
+  <!-- Bottom Presentation Controls -->
+  <footer class="presentation-controls">
+    <div class="control-left">
+      <button id="prev-btn" class="ctrl-btn" title="Previous Slide (Left Arrow)"><i class="fa-solid fa-chevron-left"></i> <span>Prev</span></button>
+      <div class="slide-indicator">
+        <span id="current-slide-num">1</span> / <span id="total-slides-num">10</span>
+      </div>
+      <button id="next-btn" class="ctrl-btn" title="Next Slide (Right Arrow)"><span>Next</span> <i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Quick Jump Dot Indicators -->
+    <div class="dots-container" id="dots-container"></div>
+
+    <div class="control-right">
+      <span class="shortcut-tip"><kbd>←</kbd> <kbd>→</kbd> Navigate | <kbd>F</kbd> Fullscreen | <kbd>N</kbd> Notes</span>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/app.js"></script>
+</body>
+</html>
